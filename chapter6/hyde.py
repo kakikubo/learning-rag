@@ -59,3 +59,5 @@ hyde_rag_chain = {
 
 hyde_output = hyde_rag_chain.invoke("LangChainの概要を教えて")
 print(hyde_output)
+# 上記と同様の処理は HypotheticalDocumentEmbeddings で実現可能
+# https://github.com/langchain-ai/langchain/blob/master/cookbook/hypothetical_document_embeddings.ipynb
