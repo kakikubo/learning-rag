@@ -98,4 +98,5 @@ route_rag_chain = (
     | prompt | model | StrOutputParser()
 )
 
-route_rag_chain.invoke("LangChainの概要を教えて")
+# route_rag_chain.invoke("LangChainの概要を教えて") # documents検索
+route_rag_chain.invoke("東京の今日の天気は？") # web検索
