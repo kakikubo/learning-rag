@@ -9,3 +9,6 @@ langchain-text-splitters==0.3.0
 langchain-chroma==0.1.4
 tavily-python==0.5.0
 langchain-cohere==0.4.2
+chromadb==0.5.3
+ragas==0.1.14
+nest-asyncio==1.6.0
